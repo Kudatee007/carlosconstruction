@@ -1,0 +1,129 @@
+.div1 {
+  width: 100%;
+}
+
+.div01 {
+  width: 100%;
+  height: 87vh;
+  background-image: url("../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: example;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  border-bottom: 5px solid #00a3d9;
+}
+
+@keyframes example {
+  25% {
+    background-image: url("../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG");
+  }
+  75% {
+    background-image: url("../Images/627f6f58-5258-4894-bfc7-242974228322.JPG");
+  }
+  100% {
+    background-image: url("../Images/d6bda07f-4e75-4f4e-a662-de4ddc9cff90.JPG");
+  }
+}
+
+.h11 {
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 50px;
+  max-width: 600px;
+}
+.p11 {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  text-align: left;
+  padding-left: 50px;
+  max-width: 700px;
+}
+
+.div02 {
+  max-width: 350px;
+  margin-left: 0px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+.btn1 {
+  width: 250px;
+  height: 60px;
+  border-radius: 5px;
+  border: 0ch;
+  background-color: rgb(137, 72, 72);
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+}
+@media screen and (min-width: 456px) and (max-width: 570px) {
+  .h11 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    max-width: 400px;
+  }
+  .p11 {
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    max-width: 400px;
+  }
+  .div02 {
+    max-width: 350px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .btn1 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: rgb(137, 72, 72);
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 456px) {
+  .h11 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    max-width: 300px;
+  }
+  .p11 {
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    max-width: 400px;
+  }
+  .div02 {
+    max-width: 350px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .btn1 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: rgb(137, 72, 72);
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+  }
+}
