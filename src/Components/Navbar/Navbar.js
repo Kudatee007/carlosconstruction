@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../img/BENTRACO (13) 1.svg";
+// import logo from "../img/BENTRACO (13) 1.svg";
 import "./Navbar.css";
 import hamburger from "../img/tabler_menu-2.svg";
 import cancel from "../img/iconoir_cancel.svg";
