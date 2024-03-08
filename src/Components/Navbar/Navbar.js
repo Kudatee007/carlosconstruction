@@ -21,9 +21,6 @@ const Navbar = () => {
           </h1>
         </Link>
         <div className={expand ? "navs" : "navs navs-NX"}>
-          <Link to="/" className="link" onClick={handler}>
-            <h2 className="navTxt">Home</h2>
-          </Link>
           <Link to="/services" className="link" onClick={handler}>
             <h2 className="navTxt">Services</h2>
           </Link>
