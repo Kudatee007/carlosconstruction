@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.Footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  padding: 85px 85px;
+  background-color: #fafafd;
+  border-top: 4px solid #f0f2f7;
+}
+.footLogo {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.Footer1 {
+  background-color: #0e4454;
+}
+
+.foot > h1 {
+  font-family: "Contrail One";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 59px;
+  color: black;
+}
+.foot > p {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #404040;
+  width: 38ch;
+  padding-bottom: 23px;
+}
+.foot {
+  padding-top: 120px;
+}
+.Cont {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 24px;
+  color: black;
+}
+.footBox {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.Line {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 60%;
+  opacity: 0.5;
+}
+.footBox > h5 {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 25px;
+  color: #404040;
+}
+.inTouch {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #404040;
+  padding-top: 30px;
+}
+.Input {
+  display: grid;
+  gap: 50px;
+}
+.inputName {
+  width: 535px;
+  padding: 10px 0;
+  border: 1.5px solid #c0bebe;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.inputEmail {
+  width: 535px;
+  padding: 10px 0;
+  border: 1.5px solid #c0bebe;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.inputText {
+  width: 535px;
+  padding: 10px 0;
+  border: 1.5px solid #c0bebe;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: white;
+  font-size: 20px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.Btnsend {
+  width: 207px;
+  height: 46px;
+  padding-left: 12px;
+  background: black;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: 0.7px solid #ffffff;
+}
+.Btnsend:hover {
+  opacity: 0.8;
+  background: rgba(10, 10, 10, 0.2);
+}
+.span {
+    color: #00a3d9;
+}
+@media (max-width: 1200px) {
+  .inputEmail {
+    width: 450px;
+  }
+  .inputName {
+    width: 450px;
+  }
+  .inputText {
+    width: 450px;
+  }
+  .Footer {
+    padding: 85px 35px;
+  }
+}
+@media (max-width: 1000px) {
+  .inputEmail {
+    width: 100%;
+  }
+  .inputName {
+    width: 100%;
+  }
+  .inputText {
+    width: 100%;
+  }
+  .Footer {
+    padding: 85px 35px;
+  }
+}
+@media (max-width: 912px) {
+  .foot > h1 {
+    font-size: 27px;
+    font-weight: 900;
+  }
+}
+@media (max-width: 820px) {
+  .Footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    padding: 85px 85px;
+  }
+  .foot > .footPPP {
+    width: auto;
+  }
+}
+@media (max-width: 540px) {
+  .Footer {
+    padding: 85px 55px;
+  }
+}
+@media (max-width: 480px) {
+  .Footer {
+    padding: 85px 35px;
+  }
+}
