@@ -27,7 +27,7 @@ const Navbar = () => {
           <Link to="/contact" className="link" onClick={handler}>
             <h2 className="navTxt">Contact Us</h2>
           </Link>
-          <Link to="/about" className="link" onClick={handler}>
+          <Link to="/About" className="link" onClick={handler}>
             <h2 className="navTxt">About Us</h2>
           </Link>
           <Link to="/projects" className="link" onClick={handler}>
