@@ -1,0 +1,13 @@
+.layout-container {
+    position: relative; /* Ensure that the children are positioned relative to this container */
+  }
+  
+  /* Style the navbar to appear on top */
+  .navbar {
+    position: fixed; /* or position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar appears on top */
+  }
+  
