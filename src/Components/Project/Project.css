@@ -1,0 +1,17 @@
+.projectWork {
+    background-color: #212020;
+    padding: 35px 150px;
+  }
+  .projectWorkImg {
+    width: 92%;
+    height: 280px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+  .projectWorkTxt {
+    color: #fff;
+    font-size: 20px;
+  }
+  .skyBlue{
+    height: 20vh;
+  }

@@ -7,31 +7,12 @@ import videoBg1 from "../Images/1109257_1080p_4k_2k_3840x2160 (1).mp4";
 import carlosLogo from "../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG";
 import carlosLogo3 from "../Images/e4afb92c-12c9-419c-8b81-c4c239987b2e.JPG";
 import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
-import Featured from "./Featured";
 import backWood from "../Images/wood-texture-background.jpg";
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Project from "../Project/Project";
 
 
 const Page1 = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 1400 },
-      items: 3,
-    },
-    desktop: {
-      breakpoint: { max: 1400, min: 767 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 767, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 2,
-    },
-  };
   return (
     <div>
       <div className="div01">
@@ -88,23 +69,7 @@ const Page1 = () => {
         </div>
       </div>
       {/* PROJECT WORK */}
-      <div className="projectWork">
-        <h2 className="projectWorkTxt">PROJECT WORK</h2>
-        <div>
-          <Carousel responsive={responsive}>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-         <img src={carlosLogo2} alt="" className="projectWorkImg"/>
-          </Carousel>
-          ;
-        </div>
-      </div>
+     <Project />
     </div>
   );
 };

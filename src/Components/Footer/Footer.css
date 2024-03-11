@@ -1,0 +1,52 @@
+.footerDiv {
+  background-color: #212020;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 80px;
+}
+.footerH3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+.footerH5 {
+  font-size: 15px;
+  color: #ebdede;
+  margin-bottom: 22px;
+  text-transform: uppercase;
+}
+.footerP {
+  color: #918c8c;
+  width: 30ch;
+  line-height: 24px;
+}
+.footerLi {
+  color: #918c8c;
+  line-height: 34px;
+}
+.hourDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  border-bottom: 0.1px solid #918c8c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.hourTime {
+  color: #fff;
+  font-size: 15px;
+}
+.hourDays {
+  color: #918c8c;
+  font-size: 14px;
+}
+.footerReserved {
+  background-color: #111;
+  text-align: center;
+  padding: 23px 0;
+}
+.reservedTxt {
+  color: #fff;
+  font-size: 14px;
+}
