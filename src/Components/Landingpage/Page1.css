@@ -35,6 +35,54 @@
   color: #fff;
   border: none;
 }
+.planTop {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 80px 150px;
+}
+.planTopDiv {
+  width: 100%;
+}
+.planTopImg {
+  width: 100%;
+  height: 180px;
+}
+.planToph5 {
+  font-size: 16px;
+  border-bottom: 0.5px solid black;
+  /* font-family: "Montserrat"; */
+  font-weight: 500;
+  padding: 20px 0;
+}
+.planToph6 {
+  color: #727272;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.62857;
+  padding-top: 7px;
+  padding-bottom: 18px;
+}
+.planTopP {
+  color: #727272;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.62857;
+}
+.projectWork {
+  background-color: #212020;
+  padding: 35px 150px;
+}
+.projectWorkImg {
+  width: 92%;
+  height: 280px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.projectWorkTxt {
+  color: #fff;
+  font-size: 20px;
+}
 .div01 {
   position: relative;
   top: 0;
