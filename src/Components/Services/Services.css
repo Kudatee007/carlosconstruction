@@ -1,0 +1,41 @@
+.service {
+  background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.solid1 {
+  padding-top: 280px;
+  font-size: 50px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.img1{
+    width: 100%;
+    height: 100vh;
+}
+.p1{
+    font-size: larger;
+    margin: auto 0;
+    /* text-align: center; */
+}
+.parent1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.serve{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2opx;
+    padding: 0 60px;
+}
+.serv{
+    padding-top: 80px;
+   padding-bottom: 80px;
+    font-size: 50px;
+    color: rgb(108, 26, 26);
+    font-family: "Bangers";
+    letter-spacing: 0.2ch;
+}

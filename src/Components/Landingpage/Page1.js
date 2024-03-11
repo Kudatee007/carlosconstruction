@@ -2,7 +2,7 @@ import React from "react";
 import "./Page1.css";
 // import { Link } from "react-router-dom";
 import videoBg from "../Images/1104411_1080p_4k_2k_3840x2160.mov";
-import carlosLogo from "../Images/carlos.svg";
+// import carlosLogo from "../Images/carlos.svg";
 
 const Page1 = () => {
   return (
