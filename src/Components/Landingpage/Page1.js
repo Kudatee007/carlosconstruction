@@ -2,9 +2,7 @@ import React from "react";
 import "./Page1.css";
 // import { Link } from "react-router-dom";
 import videoBg from "../Images/1104411_1080p_4k_2k_3840x2160.mov";
-<<<<<<< HEAD
 // import carlosLogo from "../Images/carlos.svg";
-=======
 import videoBg1 from "../Images/1109257_1080p_4k_2k_3840x2160 (1).mp4";
 import carlosLogo from "../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG";
 import carlosLogo3 from "../Images/e4afb92c-12c9-419c-8b81-c4c239987b2e.JPG";
@@ -13,7 +11,7 @@ import Featured from "./Featured";
 import backWood from "../Images/wood-texture-background.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
->>>>>>> 2e18bd4a74f335fd8e36488a69d348de95f30c50
+
 
 const Page1 = () => {
   const responsive = {
