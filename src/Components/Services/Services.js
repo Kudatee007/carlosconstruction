@@ -3,10 +3,12 @@ import "./Services.css";
 import resident from "../Images/resident.jpg";
 import comme from "../Images/comme.jpg";
 import indust from "../Images/indust.jpg";
-import infra from "../Images/infra.jpg"
+import infra from "../Images/infra.jpg";
+import Project from "../Project/Project";
 
 const Services = () => {
   return (
+    <div>
     <div>
       <div className="service">
         <h1 className="solid1">
@@ -65,16 +67,16 @@ const Services = () => {
         </div>
         <div className="serve">
           <p className="p1">
-            Carlos Construction specializes in providing comprehensive civil engineering
-            and infrastructure solutions tailored to meet the diverse needs of
-            communities, municipalities, and industries. With our expertise,
-            innovation, and commitment to sustainable development, we deliver
-            projects that enhance connectivity, resilience, and quality of life.
-            We are dedicated to delivering excellence in civil engineering and
-            infrastructure, building sustainable communities, and shaping the
-            future of transportation, water resources, and urban development.
-            Contact us today to learn more about our services and how we can
-            support your project needs.
+            Carlos Construction specializes in providing comprehensive civil
+            engineering and infrastructure solutions tailored to meet the
+            diverse needs of communities, municipalities, and industries. With
+            our expertise, innovation, and commitment to sustainable
+            development, we deliver projects that enhance connectivity,
+            resilience, and quality of life. We are dedicated to delivering
+            excellence in civil engineering and infrastructure, building
+            sustainable communities, and shaping the future of transportation,
+            water resources, and urban development. Contact us today to learn
+            more about our services and how we can support your project needs.
           </p>
         </div>
         <div>
@@ -82,6 +84,8 @@ const Services = () => {
         </div>
       </div>
     </div>
+      <Project />
+      </div>
   );
 };
 

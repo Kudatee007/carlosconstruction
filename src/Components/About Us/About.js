@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import Project from "../Project/Project";
 
 const About = () => {
   return (
@@ -70,6 +71,7 @@ const About = () => {
           portfolio that showcases our expertise and capabilities.
         </p>
       </div>
+      <Project/>
     </div>
   );
 };
