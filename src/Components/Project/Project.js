@@ -16,12 +16,12 @@ const Project = () => {
       items: 3,
     },
     tablet: {
-      breakpoint: { max: 767, min: 464 },
+      breakpoint: { max: 767, min: 540 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 2,
+      breakpoint: { max: 540, min: 0 },
+      items: 1,
     },
   };
   return (
@@ -45,7 +45,7 @@ const Project = () => {
         </div>
       </div>
       <div>
-        <video src={skyBlue} autoPlay loop muted className="skyBlue"/>
+        <video src={skyBlue} autoPlay loop muted className="skyBlue" />
       </div>
     </div>
   );

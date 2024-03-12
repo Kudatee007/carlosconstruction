@@ -1,7 +1,8 @@
 .footerDiv {
   background-color: #212020;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
   padding: 80px 80px;
 }
 .footerH3 {
@@ -49,4 +50,34 @@
 .reservedTxt {
   color: #fff;
   font-size: 14px;
+}
+@media (max-width: 1020px) {
+  .footerDiv {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    padding: 80px 80px;
+  }
+}
+@media (max-width: 620px) {
+  .footerDiv {
+    grid-template-columns: 1fr;
+    row-gap: 60px;
+    padding: 80px 80px;
+  }
+  .footerP {
+    width: auto;
+  }
+  .footerDiv > :nth-child(2) {
+    order: 3; /* Set the order to 3 to move it to the last position */
+  }
+}
+@media (max-width: 480px) {
+    .footerDiv {
+        padding: 40px;
+    }
+}
+@media (max-width: 420px) {
+    .footerDiv {
+        padding: 40px 30px;
+    }
 }
