@@ -12,12 +12,18 @@ const Navbar = () => {
   function handler() {
     setExpand(!expand);
   }
+
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
   return (
     <div>
-      <div className="navBar">
+      <header className="navBar">
         <Link to="/" className="link">
           <h1 className="carlosHead">
-            <span>CARLOS</span> CONSTRUCTION
+            <span>C<span className="arlos">ARLOS</span></span> CONSTRUCTION
           </h1>
         </Link>
         <div className={expand ? "navs" : "navs navs-NX"}>
@@ -42,7 +48,7 @@ const Navbar = () => {
         <div className="hamburger">
           <img src={hamburger} alt="" className="ham" onClick={handler} />
         </div>
-      </div>
+      </header>
     </div>
   );
 };

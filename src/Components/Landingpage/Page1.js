@@ -16,7 +16,7 @@ const Page1 = () => {
   return (
     <div>
       <div className="div01">
-        <video src={videoBg} autoPlay loop muted />
+        <video src={videoBg} autoPlay loop muted className="videoBg"/>
         <div className="div01Txt">
           {/* <img src={carlosLogo} alt="" className="carlosLogo" /> */}
           <h1 className="ccTxt">CARLOS CONSTRUCTION</h1>

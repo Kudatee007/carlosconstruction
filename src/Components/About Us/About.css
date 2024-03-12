@@ -16,22 +16,21 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-h1{
+/* h1{
     text-align: center;
     padding: 20px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h2{
-    /* text-align: center; */
     padding: 20px 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+} */
 .pp{
     margin: 10px 0;
 }
-span{
+/* span{
     font-weight: bold;
-}
+} */
 .main2{
     background-image: url("../Images/labor-union-members-working-together_23-2150995046.jpg");
     background-size: cover;
