@@ -16,10 +16,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
-h1{
+.head{
     text-align: center;
     padding: 20px 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 h2{
     /* text-align: center; */
@@ -45,4 +46,7 @@ span{
     font-size: 50px;
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (min-width: 425px) and (max-width: 767px){
+
 }

@@ -9,7 +9,7 @@ const About = () => {
         <h1 className="solid">Solid foundation for a brighter future.</h1>
       </div>
       <div className="sub">
-        <h1>ABOUT US</h1>
+        <h1 className="head">ABOUT US</h1>
         <p className="para">
           Carlos Construction is a leading construction company dedicated to
           delivering high-quality projects with integrity, professionalism, and

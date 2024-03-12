@@ -12,7 +12,7 @@ const Services = () => {
       <div>
         <div className="service">
           <h1 className="solid1">
-            Carlos Construction specializes in a wide range of construction
+            Carlos Construction specializes in a wide range of construction 
             services, including:
           </h1>
         </div>
