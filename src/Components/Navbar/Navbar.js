@@ -5,6 +5,7 @@ import "./Navbar.css";
 import "./Navbar.css";
 import hamburger from "../img/tabler_menu-2.svg";
 import cancel from "../img/iconoir_cancel.svg";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   const [expand, setExpand] = useState(true);
@@ -46,7 +47,7 @@ const Navbar = () => {
           <img src={cancel} alt="" id="cancel" onClick={handler} />
         </div>
         <div className="hamburger">
-          <img src={hamburger} alt="" className="ham" onClick={handler} />
+          <GiHamburgerMenu className="ham" onClick={handler}/>
         </div>
       </header>
     </div>

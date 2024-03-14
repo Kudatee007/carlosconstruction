@@ -8,7 +8,7 @@
 .footerH3 {
   font-size: 20px;
   color: #fff;
-  margin-bottom: 22px;
+  margin-bottom: 40px;
   text-transform: uppercase;
 }
 .footerH5 {
@@ -20,7 +20,12 @@
 .footerP {
   color: #918c8c;
   width: 30ch;
-  line-height: 24px;
+  line-height: 25px;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-size: 18px;
 }
 .footerLi {
   color: #918c8c;
@@ -36,11 +41,13 @@
 }
 .hourTime {
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .hourDays {
   color: #918c8c;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 300;
 }
 .footerReserved {
   background-color: #111;
@@ -66,18 +73,19 @@
   }
   .footerP {
     width: auto;
+    font-size: 16px;
   }
   .footerDiv > :nth-child(2) {
     order: 3; /* Set the order to 3 to move it to the last position */
   }
 }
 @media (max-width: 480px) {
-    .footerDiv {
-        padding: 40px;
-    }
+  .footerDiv {
+    padding: 40px;
+  }
 }
 @media (max-width: 420px) {
-    .footerDiv {
-        padding: 40px 30px;
-    }
+  .footerDiv {
+    padding: 40px 30px;
+  }
 }

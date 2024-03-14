@@ -8,7 +8,7 @@
   z-index: 1;
 }
 .backWood {
-  height: 19vh;
+  height: 18vh;
   width: 100%;
 }
 .quoteBox {
@@ -22,12 +22,11 @@
   position: relative;
 }
 .quoteBoxTxt {
-  font-family: "Roboto Slab", serif;
+  padding-bottom: 15px;
   font-optical-sizing: auto;
-  font-weight: 600;
   font-size: 23px;
+  line-height: 1.4;
   color: #fff;
-  padding-top: 1px;
 }
 .quoteBoxBtn {
   padding: 16px 50px;
@@ -52,7 +51,7 @@
   font-size: 16px;
   border-bottom: 0.5px solid black;
   /* font-family: "Montserrat"; */
-  font-weight: 500;
+  color: #212020;
   padding: 20px 0;
 }
 .planToph6 {
@@ -66,8 +65,8 @@
 .planTopP {
   color: #727272;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.62857;
+  font-size: 16px;
+  line-height: 1.4;
 }
 /* .videoBg {
   width: 100%;
@@ -148,15 +147,15 @@ video {
     font-size: 18px;
   }
 }
-@media (max-width: 920px){
+@media (max-width: 920px) {
   .div01Txt {
     position: absolute;
     right: 0;
     left: 0;
-    /* bottom: 150px; */
+    bottom: 120px;
     text-align: center;
   }
-  .ccTxt{
+  .ccTxt {
     font-size: 45px;
   }
   .craftTxt {
@@ -178,16 +177,15 @@ video {
   .quoteBoxBtn {
     padding: 13px 35px;
   }
-
 }
 @media (max-width: 620px) {
   .planTop {
     padding: 90px 80px;
   }
-  .quoteBox{
+  .quoteBox {
     padding: 20px 40px;
   }
-  .ccTxt{
+  .ccTxt {
     font-size: 40px;
     letter-spacing: 0.1ch;
   }
@@ -202,10 +200,7 @@ video {
   .planTop {
     padding: 70px 35px;
   }
-  .quoteBoxTxt {
-    font-size: 14px;
-  }
-  .ccTxt{
+  .ccTxt {
     font-size: 33px;
     letter-spacing: 0.1ch;
   }

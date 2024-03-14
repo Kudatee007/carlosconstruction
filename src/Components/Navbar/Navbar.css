@@ -11,8 +11,12 @@
   /* background-color: aliceblue; */
 }
 .sticky {
-  padding: 0px 100px;
+  padding: 22px 100px;
   background-color: #212020;
+}
+.ham {
+  color: #fff;
+  padding-top: 4px;
 }
 .sticky .navTxt {
   font-size: 16px;
@@ -100,6 +104,11 @@
 }
 .hamburger {
   display: none;
+  border: 2px solid white;
+  box-sizing: border-box;
+  padding: 3px 7px;
+  border-radius: 5px;
+
 }
 #cancel {
   display: none;
@@ -169,7 +178,7 @@
     padding: 12px 0px;
   }
   .sticky {
-    padding: 10px 0px;
+    padding: 14px 0px;
   }
   #cancel {
     display: block;
@@ -187,17 +196,18 @@
   } */
 }
 @media (max-width: 480px) {
-  .arlos{
+  .arlos {
     display: none;
   }
 }
 @media (max-width: 140px) {
-  
   .navBar {
     position: relative;
   }
   .ham {
     width: 40px;
+    color: #fff;
+    padding-top: 4px;
   }
   .navs > h1 {
     margin-bottom: 30px;
@@ -214,6 +224,4 @@
     padding: 25px 0;
     color: white;
   } */
-
-
 }

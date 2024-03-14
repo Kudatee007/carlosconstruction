@@ -5,6 +5,7 @@ import "./Contact.css";
 import location from "../img/location.svg";
 import phoneCall from "../img/phonecall.svg";
 import mail from "../img/mail.svg";
+import { LuSendHorizonal } from "react-icons/lu";
 
 const Contact = () => {
   useEffect(() => {
@@ -33,46 +34,38 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <div>
-      <div className="googleMap">
-        <iframe
-          title="Google Maps"
-          width="100%"
-          height="600"
-          frameBorder="0"
-          scrolling="no"
-          marginHeight="0"
-          marginWidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed&enable-dark-mode" // Add enable-dark-mode to force dark mode
-        >
-          <a href="https://www.gps.ie/">gps trackers</a>
-        </iframe>
-      </div>
+    <div className="Foo">
       <div className="Footer">
         <div className="foot">
-          <h1>
-            G<span className="span">et</span> in touch
-          </h1>
+          <h1>GET IN TOUCH</h1>
           <p className="footPPP">
             At BENTRACO LOGISTICS, we always strive to provide the best customer
             service possible. Our Customer Service Agents are always available
             to help with your reservations, and we are happy to assist with any
             special requests or requirements.
           </p>
-          <h1>
-            Bu<span className="span">si</span>ness Hours
-          </h1>
+          <h1>BUSINESS HOURS</h1>
           <p>Reservation and Dispatch 24/7</p>
-          <h1>
-            Billing <span className="span">De</span>partment
-          </h1>
+          <h1>BILLING DEPARTMENT</h1>
           <p>Monday - Friday - 9AM-5PM EST</p>
         </div>
         <div className="foot2">
-          <h1 className="Cont">
-            The o<span className="span">ff</span>ice
-          </h1>
+          <h1 className="Cont">THE OFFICE</h1>
           <hr className="Line" />
+          <div className="googleMap">
+            <iframe
+              title="Google Maps"
+              width="100%"
+              height="220"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            >
+              <a href="https://www.gps.ie/">gps trackers</a>
+            </iframe>
+          </div>
           <div className="footBox">
             <img src={location} alt="" />
             <h5>2145 E West Connector Apt 202 Austell GA 30106-8191</h5>
@@ -108,8 +101,8 @@ const Contact = () => {
                 className="inputText"
               />
               <button className="Btnsend" type="submit" value="Send">
-                <img src={Arrow} alt="" />
                 SEND MESSAGE
+              <LuSendHorizonal />
               </button>
             </div>
           </form>
