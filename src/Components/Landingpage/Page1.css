@@ -68,10 +68,7 @@
   font-size: 16px;
   line-height: 1.4;
 }
-/* .videoBg {
-  width: 100%;
 
-} */
 .div01 {
   position: relative;
   top: 0;
@@ -122,6 +119,9 @@
 .carlosLogo {
   width: 450px;
 }
+.videoBg1 {
+  display: none;
+}
 video {
   position: relative;
   top: 0;
@@ -129,6 +129,7 @@ video {
   height: 100vh;
   object-fit: cover;
 }
+
 
 @media (max-width: 1200px) {
   .planTop {
@@ -138,13 +139,19 @@ video {
     height: 250px;
   }
 }
-@media (max-width: 1020px) {
+@media (max-width: 1024px) {
   .planTop {
     padding: 70px 80px;
     gap: 25px;
   }
   .quoteBoxTxt {
     font-size: 18px;
+  }
+  .videoBg {
+    display: none;
+  }
+  .videoBg1 {
+    display: block;
   }
 }
 @media (max-width: 920px) {
