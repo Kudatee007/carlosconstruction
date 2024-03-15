@@ -58,7 +58,6 @@ h2{
   height: 600px;
   margin: 30px 0;
 }
-
 @media (min-width: 540px) {
   .solid {
     font-size: 45px;
@@ -79,4 +78,11 @@ h2{
   .solid {
     font-size: 85px;
   }
+.solid{
+    padding-top: 20%;
+    font-size: 50px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 }

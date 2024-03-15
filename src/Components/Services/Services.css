@@ -10,14 +10,17 @@
   font-size: 50px;
   color: white;
   font-family: "Times New Roman", Times, serif;
+  text-align: center;
 }
 .img1{
     width: 100%;
     height: 100vh;
 }
 .p1{
-    font-size: larger;
+    font-size: large;
     margin: auto 0;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
     /* text-align: center; */
 }
 .parent1{
@@ -38,4 +41,247 @@
     color: rgb(108, 26, 26);
     font-family: "Bangers";
     letter-spacing: 0.2ch;
+    text-align: center;
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+      }
+      .solid1 {
+        padding-top: 280px;
+        font-size: 50px;
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .img1{
+          width: 100%;
+          height: 100vh;
+      }
+      .p1{
+          font-size: larger;
+          margin: auto 0;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          /* text-align: center; */
+      }
+      .parent1{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+      .serve{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2opx;
+          padding: 0 60px;
+      }
+      .serv{
+          padding-top: 80px;
+         padding-bottom: 80px;
+          font-size: 50px;
+          color: rgb(108, 26, 26);
+          font-family: "Bangers";
+          letter-spacing: 0.2ch;
+          text-align: center;
+      }
+}
+@media screen and (min-width: 956px) and (max-width: 1200px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+      }
+      .img1{
+        width: 100%;
+        height: 70vh;
+    }
+    .p1{
+        font-size: larger;
+        margin: auto 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* text-align: center; */
+    }
+    .serv{
+        padding-top: 50px;
+       padding-bottom: 50px;
+        font-size: 50px;
+        color: rgb(108, 26, 26);
+        font-family: "Bangers";
+        letter-spacing: 0.2ch;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 750px) and (max-width: 956px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 70vh;
+      }
+    .img1{
+        width: 100%;
+        height: 50vh;
+    }
+    .p1{
+        font-size: larger;
+        margin: auto 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* text-align: center; */
+    }
+    .serv{
+        padding-top: 40px;
+       padding-bottom: 40px;
+        font-size: 50px;
+        color: rgb(108, 26, 26);
+        font-family: "Bangers";
+        letter-spacing: 0.2ch;
+        text-align: center;
+    }
+   
+}
+
+@media screen and (min-width: 425px) and (max-width: 750px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+      }
+    .img1{
+        width: 100%;
+        height: 50vh;
+        margin-top: 30px;
+    }
+    .p1{
+        font-size: large;
+        margin: auto 0;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* text-align: center; */
+    }
+    .parent1{
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+       
+    }
+    .serve{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 2opx;
+        padding: 0 60px;
+        margin-top: 30px;
+        background-color: rgb(71, 62, 62);
+    }
+    .serv{
+        padding-top: 30px;
+       padding-bottom: 30px;
+        font-size: 50px;
+        color: rgb(108, 26, 26);
+        font-family: "Bangers";
+        letter-spacing: 0.2ch;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+      }
+    .img1{
+        width: 100%;
+        height: 50vh;
+        margin-top: 30px;
+    }
+    .p1{
+        font-size: larger;
+        margin: auto 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        /* text-align: center; */
+    }
+    .parent1{
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+       
+    }
+    .serve{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 2opx;
+        /* padding: 0 60px; */
+        margin-top: 30px;
+        background-color: rgb(71, 62, 62);
+    }
+    .serv{
+        padding-top: 30px;
+       padding-bottom: 30px;
+        font-size: 50px;
+        color: rgb(108, 26, 26);
+        font-family: "Bangers";
+        letter-spacing: 0.2ch;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 150px) and (max-width: 319px){
+    .service {
+        background-image: url("../Images/residential-house-process-building_23-2147694705.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 50vh;
+      }
+    .img1{
+        width: 100%;
+        height: 50vh;
+        margin-top: 30px;
+    }
+    .p1{
+        font-size: larger;
+        margin: auto 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        /* text-align: center; */
+    }
+    .parent1{
+        display: block;
+        /* grid-template-columns: 1fr 1fr; */
+       
+    }
+    .serve{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        font-size: 2opx;
+        /* padding: 0 60px; */
+        margin-top: 30px;
+        background-color: rgb(71, 62, 62);
+    }
+    .serv{
+        padding-top: 30px;
+       padding-bottom: 30px;
+        font-size: 50px;
+        color: rgb(108, 26, 26);
+        font-family: "Bangers";
+        letter-spacing: 0.2ch;
+        text-align: center;
+    }
 }

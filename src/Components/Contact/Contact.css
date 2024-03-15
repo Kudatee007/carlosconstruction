@@ -9,6 +9,9 @@
 .googleMap {
   padding: 20px 0;
 }
+.carl{
+  font-weight: bold;
+}
 .Footer {
   display: flex;
   justify-content: space-around;
