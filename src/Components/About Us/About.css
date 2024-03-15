@@ -14,7 +14,7 @@
   text-align: center;
   width: 20ch;
   margin: 0 auto;
-  color: white;
+  color: aliceblue;
   font-family: "Bangers";
   letter-spacing: 10px;
 }
@@ -80,9 +80,8 @@ h2{
   }
 .solid{
     padding-top: 20%;
-    font-size: 50px;
+    font-size: 85px;
     color: aliceblue;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 }
