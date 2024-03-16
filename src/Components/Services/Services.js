@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Services.css";
 import resident from "../Images/resident.jpg";
 import comme from "../Images/comme.jpg";
@@ -7,12 +7,15 @@ import infra from "../Images/infra.jpg";
 import Project from "../Project/Project";
 
 const Services = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div>
         <div className="service">
           <h1 className="solid1">
-            Carlos Construction specializes in a wide range of construction 
+            Carlos Construction specializes in a wide range of construction
             services, including:
           </h1>
         </div>

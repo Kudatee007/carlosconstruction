@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Page1.css";
 // import { Link } from "react-router-dom";
 import videoBg from "../Images/1104411_1080p_4k_2k_3840x2160.mov";
@@ -10,13 +10,15 @@ import backWood from "../Images/wood-texture-background.jpg";
 import "react-multi-carousel/lib/styles.css";
 import Project from "../Project/Project";
 
-
 const Page1 = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div>
       <div className="div01">
-      <video src={videoBg} autoPlay loop muted className="videoBg"/>
-        <video src={videoBg1} autoPlay loop muted className="videoBg1"/>
+        <video src={videoBg} autoPlay loop muted className="videoBg" />
+        <video src={videoBg1} autoPlay loop muted className="videoBg1" />
         <div className="div01Txt">
           {/* <img src={carlosLogo} alt="" className="carlosLogo" /> */}
           <h1 className="ccTxt">CARLOS CONSTRUCTION</h1>
@@ -69,7 +71,7 @@ const Page1 = () => {
         </div>
       </div>
       {/* PROJECT WORK */}
-     <Project />
+      <Project />
     </div>
   );
 };

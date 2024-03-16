@@ -1,17 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Project.css";
 import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import skyBlue from "../Images/4784471_Mumbai_India_Skyline_1920x1080.mp4";
-import project4 from "../Images/electrician-installer-with-tool-his-hands-working-with-cable-construction-site.jpg"
-import project2 from "../Images/construction-silhouette.jpg"
-import project3 from "../Images/building-new-concrete-houses.jpg"
-import project1 from "../Images/heavy-machines-construction-workers-working-building.jpg"
-import project5 from "../Images/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg"
-import project6 from "../Images/workers-examining-work.jpg"
+import project4 from "../Images/electrician-installer-with-tool-his-hands-working-with-cable-construction-site.jpg";
+import project2 from "../Images/construction-silhouette.jpg";
+import project3 from "../Images/building-new-concrete-houses.jpg";
+import project1 from "../Images/heavy-machines-construction-workers-working-building.jpg";
+import project5 from "../Images/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg";
+import project6 from "../Images/workers-examining-work.jpg";
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 1400 },

@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./About.css";
 import Project from "../Project/Project";
 import china from "../Images/china-ningbo-cityscape_11208-1776.avif";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="conTact">
       <div className="main">
