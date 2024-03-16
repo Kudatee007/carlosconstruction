@@ -2,8 +2,7 @@ import React from "react";
 import "./Page1.css";
 // import { Link } from "react-router-dom";
 import videoBg from "../Images/1104411_1080p_4k_2k_3840x2160.mov";
-// import carlosLogo from "../Images/carlos.svg";
-// import videoBg1 from "../Images/1109257_1080p_4k_2k_3840x2160 (1).mp4";
+import videoBg1 from "../Images/1104411_1080p_4k_2k_3840x2160 2.mov";
 import carlosLogo from "../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG";
 import carlosLogo3 from "../Images/e4afb92c-12c9-419c-8b81-c4c239987b2e.JPG";
 import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
@@ -16,7 +15,8 @@ const Page1 = () => {
   return (
     <div>
       <div className="div01">
-        <video src={videoBg} autoPlay loop muted className="videoBg"/>
+      <video src={videoBg} autoPlay loop muted className="videoBg"/>
+        <video src={videoBg1} autoPlay loop muted className="videoBg1"/>
         <div className="div01Txt">
           {/* <img src={carlosLogo} alt="" className="carlosLogo" /> */}
           <h1 className="ccTxt">CARLOS CONSTRUCTION</h1>
