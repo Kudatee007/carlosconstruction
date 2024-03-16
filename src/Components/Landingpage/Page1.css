@@ -205,7 +205,7 @@ video {
 }
 @media (max-width: 480px) {
   .planTop {
-    padding: 70px 35px;
+    padding: 70px 20px;
   }
   .ccTxt {
     font-size: 33px;

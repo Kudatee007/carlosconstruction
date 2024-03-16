@@ -35,6 +35,9 @@
   color: #918c8c;
   line-height: 34px;
 }
+link{
+  text-decoration: none;
+}
 .hourDiv {
   display: flex;
   justify-content: space-between;

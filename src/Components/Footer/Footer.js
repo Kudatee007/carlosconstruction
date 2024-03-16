@@ -10,31 +10,31 @@ const Footer = () => {
           <h3 className="footerH3">ABOUT US</h3>
           {/* <h5 className="footerH5">CARLOS CONSTRUCTION</h5> */}
           <p className="footerP">
-            <span className="carl2">Carlos Construction</span> is a renowned construction company dedicated to
-            delivering excellence in residential, commercial, and industrial
-            projects. With a legacy of craftsmanship, innovation, and client
-            satisfaction, we have established ourselves as a trusted partner for
-            construction solutions tailored to meet the diverse needs of our
-            clients.
+            <span className="carl2">Carlos Construction</span> is a renowned
+            construction company dedicated to delivering excellence in
+            residential, commercial, and industrial projects. With a legacy of
+            craftsmanship, innovation, and client satisfaction, we have
+            established ourselves as a trusted partner for construction
+            solutions tailored to meet the diverse needs of our clients.
           </p>
         </div>
         <div>
           <h3 className="footerH3">NAVIGATION</h3>
           <ul>
             <Link to="/" className="link">
-            <li className="footerLi">Home</li>
+              <li className="footerLi">Home</li>
             </Link>
             <Link to="/project" className="link">
-            <li className="footerLi">Project</li>
+              <li className="footerLi">Project</li>
             </Link>
             <Link to="/services" className="link">
-            <li className="footerLi">Services</li>
+              <li className="footerLi">Services</li>
             </Link>
             <Link to="/about" className="link">
-            <li className="footerLi">About us</li>
+              <li className="footerLi">About us</li>
             </Link>
             <Link to="/contact" className="link">
-            <li className="footerLi">Contact us</li>
+              <li className="footerLi">Contact us</li>
             </Link>
           </ul>
         </div>

@@ -24,7 +24,7 @@ const Services = () => {
           <div>
             <img src={resident} alt="" className="img1" />
           </div>
-          <div className="serve">
+          <div className="serve serveLine">
             <p className="p1">
               Residential construction involves building or renovating
               structures intended for private residential use. We offer a wide
@@ -50,12 +50,12 @@ const Services = () => {
             </p>
           </div>
           <div>
-            <img src={comme} alt="" className="img1" />
+            <img src={comme} alt="" className="img1 imgg11" />
           </div>
           <div>
             <img src={indust} alt="" className="img1" />
           </div>
-          <div className="serve">
+          <div className="serve serveLine">
             <p className="p1">
               Our company specializes in providing comprehensive industrial
               construction solutions tailored to meet the unique needs of

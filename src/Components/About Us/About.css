@@ -19,7 +19,7 @@
   letter-spacing: 10px;
 }
 .sub {
-  width: 85%;
+    padding: 0 20px;
   margin: 0 auto;
   padding-bottom: 80px;
 }
@@ -67,7 +67,6 @@ h2{
   .solid {
     font-size: 55px;
   }
-
 }
 @media (min-width: 1020px) {
   .solid {
@@ -78,10 +77,9 @@ h2{
   .solid {
     font-size: 85px;
   }
-.solid{
+  .solid {
     padding-top: 20%;
     font-size: 85px;
     color: aliceblue;
-}
-
+  }
 }
