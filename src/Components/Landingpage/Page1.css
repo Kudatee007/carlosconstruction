@@ -22,14 +22,14 @@
   position: relative;
 }
 .quoteBoxTxt {
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
   font-optical-sizing: auto;
   font-size: 23px;
   line-height: 1.4;
   color: #fff;
 }
 .quoteBoxBtn {
-  padding: 16px 50px;
+  padding: 16px 5dvi;
   background-color: #00a3d9;
   color: #fff;
   border: none;
@@ -110,7 +110,7 @@
   /* text-align: center; */
   max-width: 80%;
   margin: 30px auto;
-  color: aliceblue;
+  color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   
 }
@@ -147,7 +147,6 @@ video {
   height: 100vh;
   object-fit: cover;
 }
-
 
 @media (max-width: 1200px) {
   .planTop {

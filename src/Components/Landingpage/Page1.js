@@ -72,16 +72,33 @@ const Page1 = () => {
         </div>
       </div>
       <div className="kel">
-          <p className="kelp">
-            Whether it's building dream homes, creating dynamic workspaces, or
-            constructing essential infrastructure, Carlos Construction is
-            dedicated to delivering exceptional results that enhance
-            communities, empower businesses, and <br /> shape the future of
-            construction. Contact us today to learn more about how Carlos
-            Construction can turn your vision into reality and be your partner
-            in building a better tomorrow.
-          </p>
-        </div>
+        <p className="kelp">
+          Construction is the process of creating infrastructure or buildings
+          through systematic planning, design, and execution of various tasks,
+          such as excavation, foundation laying, structural erection, and
+          finishing. It encompasses a wide range of activities, from residential
+          and commercial building construction to civil engineering projects
+          like roads, bridges, and dams. Construction projects involve
+          coordination among architects, engineers, contractors, suppliers, and
+          laborers to ensure successful completion within budget and schedule.
+          It plays a vital role in shaping urban landscapes, supporting economic
+          growth, and improving living standards by providing essential
+          infrastructure and shelter for communities. The construction industry
+          is dynamic and continually evolving, driven by advancements in
+          technology, sustainability practices, and regulatory requirements.
+        </p>
+        <p className="kelp">
+          Whether it's building dream homes, creating dynamic workspaces, or
+          constructing essential infrastructure, <span className="carl">Carlos Construction</span> is
+          dedicated to delivering exceptional results that enhance communities,
+          empower businesses, and <br /> shape the future of construction.
+        </p>
+        <p className="kelp">
+          Contact us today to learn more about how <span className="carl">Carlos Construction</span> can turn
+          your vision into reality and be your partner in building a better
+          tomorrow.
+        </p>
+      </div>
       {/* PROJECT WORK */}
       <Project />
     </div>
