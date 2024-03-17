@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Project.css";
-import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
+// import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import skyBlue from "../Images/4784471_Mumbai_India_Skyline_1920x1080.mp4";

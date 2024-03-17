@@ -46,8 +46,8 @@ const Page1 = () => {
           <h5 className="planToph5">PLANNING YOUR PROJECT FROM SCRATCH</h5>
           <h6 className="planToph6">FREE CONSULTATION FOR YOUR PROJECT</h6>
           <p className="planTopP">
-            Constructo Construction Inc provides building services to clients
-            who value diligence, resourcefulness and creativity in a partner.
+            Carlos Construction provides building services to clients who value
+            diligence, resourcefulness and creativity in a partner.
           </p>
         </div>
         <div className="planTopDiv">
@@ -55,8 +55,9 @@ const Page1 = () => {
           <h5 className="planToph5">TOP CONCRETE DISTRIBUTION</h5>
           <h6 className="planToph6">TOP QUALITY CONCRETE DELIVERED</h6>
           <p className="planTopP">
-            In Constructo we are committed to green building, roads, bridges and
-            sustainability in our offices as well as on our job sites.
+            In Carlos Construction we are committed to green building, roads,
+            bridges and sustainability in our offices as well as on our job
+            sites.
           </p>
         </div>
         <div className="planTopDiv">
@@ -70,6 +71,17 @@ const Page1 = () => {
           </p>
         </div>
       </div>
+      <div className="kel">
+          <p className="kelp">
+            Whether it's building dream homes, creating dynamic workspaces, or
+            constructing essential infrastructure, Carlos Construction is
+            dedicated to delivering exceptional results that enhance
+            communities, empower businesses, and <br /> shape the future of
+            construction. Contact us today to learn more about how Carlos
+            Construction can turn your vision into reality and be your partner
+            in building a better tomorrow.
+          </p>
+        </div>
       {/* PROJECT WORK */}
       <Project />
     </div>
