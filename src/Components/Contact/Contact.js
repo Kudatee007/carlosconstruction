@@ -39,10 +39,10 @@ const Contact = () => {
         <div className="foot">
           <h1>GET IN TOUCH</h1>
           <p className="footPPP">
-            At <span className="carl">CARLOS CONSTRUCTION</span>, we always strive to provide the best customer
-            service possible. Our Customer Service Agents are always available
-            to help with your enquirers, and we are happy to assist with any
-            special requests or requirements.
+            At <span className="carl">CARLOS CONSTRUCTION</span>, we always
+            strive to provide the best customer service possible. Our Customer
+            Service Agents are always available to help with your enquirers, and
+            we are happy to assist with any special requests or requirements.
           </p>
           <h1>BUSINESS HOURS</h1>
           <p>Monday - Saturday - 9AM-5PM ES</p>
@@ -61,7 +61,7 @@ const Contact = () => {
               scrolling="no"
               marginHeight="0"
               marginWidth="0"
-              src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              src="https://maps.google.com/maps?width=100%25&amp;height=220&amp;hl=en&amp;q=8319%20Preston%20Rd,%20Dallas,%20TX%2075225,%20United%20States+(carlos%20construction)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
             >
               <a href="https://www.gps.ie/">gps trackers</a>
             </iframe>
@@ -102,7 +102,7 @@ const Contact = () => {
               />
               <button className="Btnsend" type="submit" value="Send">
                 SEND MESSAGE
-              <LuSendHorizonal />
+                <LuSendHorizonal />
               </button>
             </div>
           </form>
