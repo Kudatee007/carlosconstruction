@@ -37,7 +37,7 @@ const Navbar = () => {
           <Link to="/About" className="link" onClick={handler}>
             <h2 className="navTxt">About Us</h2>
           </Link>
-          <Link to="/projects" className="link" onClick={handler}>
+          <Link className="link" onClick={handler}>
             <h2 className="navTxt projects">PROJECTS</h2>
           </Link>
           {/* <Link to="/booking" className="link" onClick={handler}>
