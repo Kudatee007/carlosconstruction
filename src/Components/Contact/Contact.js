@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 // import Arrow from "../img/Vector.svg";
 import "./Contact.css";
-import location from "../img/location.svg";
-import phoneCall from "../img/phonecall.svg";
-import mail from "../img/mail.svg";
+import location from "../Images/location.svg";
+import phoneCall from "../Images/phonecall.svg";
+import mail from "../Images/mail.svg";
 import { LuSendHorizonal } from "react-icons/lu";
 
 const Contact = () => {
