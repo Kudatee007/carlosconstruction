@@ -43,8 +43,8 @@ const Page1 = () => {
       <div className="planTop">
         <div className="planTopDiv">
           <img src={carlosLogo} alt="" className="planTopImg" />
-          <h5 className="planToph5">PLANNING YOUR PROJECT FROM SCRATCH</h5>
-          <h6 className="planToph6">FREE CONSULTATION FOR YOUR PROJECT</h6>
+          <h5 className="planToph5">PLANNING PROJECT FROM SCRATCH</h5>
+          <h6 className="planToph6">FREE PROJECT CONSULTATION </h6>
           <p className="planTopP">
             Carlos Construction provides building services to clients who value
             diligence, resourcefulness and creativity in a partner.
