@@ -1,9 +1,6 @@
 import React, { useEffect } from "react";
 import "./Project.css";
-// import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
 import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import skyBlue from "../Images/4784471_Mumbai_India_Skyline_1920x1080.mp4";
 import project4 from "../Images/electrician-installer-with-tool-his-hands-working-with-cable-construction-site.jpg";
 import project2 from "../Images/construction-silhouette.jpg";
 import project3 from "../Images/building-new-concrete-houses.jpg";
@@ -53,8 +50,8 @@ const Project = () => {
           ;
         </div>
       </div>
-      <div>
-        <video src={skyBlue} autoPlay loop muted className="skyBlue" />
+      <div className="backgroundSky">
+       
       </div>
     </div>
   );
