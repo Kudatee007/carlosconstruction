@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./Page1.css";
 // import { Link } from "react-router-dom";
-import backgroundBg from "../Images/Image 3-19-24 at 5.15 PM.jpg";
-import backgroundBg1 from "../Images/Image 3-19-24 at 5.19 PM.jpg";
+// import backgroundBg from "../Images/Image 3-19-24 at 5.15 PM.jpg";
+// import backgroundBg1 from "../Images/Image 3-19-24 at 5.19 PM.jpg";
 import carlosLogo from "../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG";
 import carlosLogo3 from "../Images/e4afb92c-12c9-419c-8b81-c4c239987b2e.JPG";
 import carlosLogo2 from "../Images/Image 3-11-24 at 11.55 AM.jpg";
@@ -91,14 +91,27 @@ const Page1 = () => {
         </p>
         <p className="kelp">
           Whether it's building dream homes, creating dynamic workspaces, or
-          constructing essential infrastructure, <span className="carl">Carlos Construction</span> is
-          dedicated to delivering exceptional results that enhance communities,
-          empower businesses, and <br /> shape the future of construction.
+          constructing essential infrastructure,{" "}
+          <span className="carl">Carlos Construction</span> is dedicated to
+          delivering exceptional results that enhance communities, empower
+          businesses, and <br /> shape the future of construction.
         </p>
         <p className="kelp">
-          Contact us today to learn more about how <span className="carl">Carlos Construction</span> can turn
-          your vision into reality and be your partner in building a better
-          tomorrow.
+          Contact us today to learn more about how{" "}
+          <span className="carl">Carlos Construction</span> can turn your vision
+          into reality and be your partner in building a better tomorrow.
+        </p>
+      </div>
+      <div className="newdiv"></div>
+      <div className="newdiv2">
+        <p className="kelp1">
+          The construction of an apartment tall building involves the assembly
+          of various components, including brick walls, glass windows,
+          scaffolding, and concrete support pillars. Each element plays a
+          critical role in the structural integrity, functionality, and
+          aesthetics of the building, and careful coordination is required to
+          ensure that construction proceeds safely, efficiently, and according
+          to design specifications.
         </p>
       </div>
       {/* PROJECT WORK */}

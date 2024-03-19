@@ -52,7 +52,7 @@ h2{
 } */
 .main2 {
   background-image: url("../Images/labor-union-members-working-together_23-2150995046.jpg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
@@ -64,6 +64,11 @@ h2{
   .solid {
     font-size: 45px;
   }
+  .sub {
+    padding: 0 20px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
 }
 @media (min-width: 760px) {
   .solid {
