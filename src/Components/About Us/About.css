@@ -18,66 +18,77 @@
   font-family: "Bangers";
   letter-spacing: 10px;
 }
-.sub {
-    padding: 0 20px;
-  margin: 0 auto;
-  padding-bottom: 80px;
+.sub1 {
+  padding: 20px 23px;
+}
+.sub2 {
+  padding: 0px 23px;
+  padding-bottom: 60px;
 }
 .para {
-  font-size: larger;
+  font-size: 15px;
   color: #666;
+  line-height: 27px;
 }
 .head {
   color: #212020;
   font-size: 20px;
   line-height: 45px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-/* h1{
-    text-align: center;
-    padding: 20px 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-h2{
-    padding: 20px 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
 .pp {
   margin: 10px 0;
 }
-/* span{
-    font-weight: bold;
-} */
-.main2 {
-  background-image: url("../Images/labor-union-members-working-together_23-2150995046.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+.labourImg {
   width: 100%;
-  height: 100vh;
-  /* margin: 30px 0; */
-  margin: 0 auto;
-  align-items: center;
+  margin: 30px 0;
+  /* height: 35vh; */
 }
 @media (min-width: 540px) {
   .solid {
     font-size: 45px;
   }
-  .sub {
-    padding: 0 20px;
-  margin: 0 auto;
-  padding-bottom: 80px;
-}
+  .sub1 {
+    padding: 20px 35px;
+  }
+  .sub2 {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  .para {
+    font-size: 16px;
+  }
 }
 @media (min-width: 760px) {
   .solid {
     font-size: 55px;
   }
+  .sub1 {
+    padding: 25px 45px;
+  }
+  .sub2 {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
 }
 @media (min-width: 1020px) {
   .solid {
     font-size: 65px;
+  }
+  .sub1 {
+    padding: 35px 85px;
+  }
+  .sub2 {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .head {
+    padding-top: 20px;
+  }
+  .para {
+    font-size: 17px;
+    line-height: 30px;
   }
 }
 @media (min-width: 1200px) {
@@ -88,5 +99,11 @@ h2{
     padding-top: 20%;
     font-size: 85px;
     color: aliceblue;
+  }
+  .sub1 {
+    padding: 50px 125px;
+  }
+  .sub2 {
+    padding: 45px 125px;
   }
 }

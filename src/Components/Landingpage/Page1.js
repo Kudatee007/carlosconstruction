@@ -102,7 +102,7 @@ const Page1 = () => {
           into reality and be your partner in building a better tomorrow.
         </p>
       </div>
-      <div className="newdiv"></div>
+      {/* <div className="newdiv"></div>
       <div className="newdiv2">
         <p className="kelp1">
           The construction of an apartment tall building involves the assembly
@@ -113,7 +113,7 @@ const Page1 = () => {
           ensure that construction proceeds safely, efficiently, and according
           to design specifications.
         </p>
-      </div>
+      </div> */}
       {/* PROJECT WORK */}
       <Project />
     </div>

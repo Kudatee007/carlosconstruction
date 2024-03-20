@@ -1,7 +1,8 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import Project from "../Project/Project";
 import china from "../Images/china-ningbo-cityscape_11208-1776.avif";
+import labour from "../Images/labor-union-members-working-together_23-2150995046.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const About = () => {
         <img src={china} alt="" className="china" />
         <h1 className="solid">Solid foundation for a brighter future.</h1>
       </div>
-      <div className="sub">
+      <div className="sub1">
         <h2 className="head">ABOUT US</h2>
         <p className="para">
           Carlos Construction is a leading construction company dedicated to
@@ -59,8 +60,10 @@ const About = () => {
           productivity.
         </p>
       </div>
-      <div className="main2"></div>
-      <div className="sub">
+      <div className="main2">
+        <img src={labour} alt="" className="labourImg" />
+      </div>
+      <div className="sub2">
         <h2 className="head">OUR TEAM</h2>
         <p className="para">
           Our team comprises experienced professionals who are passionate about
