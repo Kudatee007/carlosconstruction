@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Page1.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import backgroundBg from "../Images/Image 3-19-24 at 5.15 PM.jpg";
 // import backgroundBg1 from "../Images/Image 3-19-24 at 5.19 PM.jpg";
 import carlosLogo from "../Images/5c725fd0-a6d7-4f40-aa40-09a59f84dc11.JPG";
@@ -37,7 +37,7 @@ const Page1 = () => {
             FAST AND RELIABLE SERVICE FOR YOUR PROJECT OR A QUICK FIX, WE DO IT
             ALL!
           </h2>
-          <button className="quoteBoxBtn">GET A QUOTE</button>
+          <Link to ="/Contact"><button className="quoteBoxBtn">GET A QUOTE</button></Link>
         </div>
         <img src={backWood} alt="" className="backWood" />
       </div>
