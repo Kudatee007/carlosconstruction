@@ -9,7 +9,7 @@
 .googleMap {
   padding: 20px 0;
 }
-.carl{
+.carl {
   font-weight: bold;
 }
 .Footer {
@@ -36,6 +36,7 @@
   color: #212020;
 }
 .foot > p {
+  text-align: justify;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -110,7 +111,7 @@
   border: 1.5px solid #c0bebe;
   border-radius: 5px;
   background-color: #ffffff;
-  color: white;
+  color: #212020;
   font-size: 20px;
   padding-left: 15px;
   box-sizing: border-box;

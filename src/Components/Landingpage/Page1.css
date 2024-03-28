@@ -103,7 +103,7 @@
 }
 .kelp {
   font-size: 16px;
-  /* text-align: center; */
+  text-align: justify;
   max-width: 80%;
   margin: 30px auto;
   color: white;
@@ -235,7 +235,7 @@ video {
 }
 @media (max-width: 480px) {
   .kelp {
-    max-width: 90%;
+    max-width: 88%;
   }
   .planTop {
     padding: 70px 20px;

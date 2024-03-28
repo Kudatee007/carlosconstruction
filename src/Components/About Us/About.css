@@ -26,6 +26,7 @@
   padding-bottom: 60px;
 }
 .para {
+  text-align: justify;
   font-size: 15px;
   color: #666;
   line-height: 27px;

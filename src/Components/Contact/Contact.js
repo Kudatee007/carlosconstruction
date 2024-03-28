@@ -18,10 +18,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_7mgroal",
-        "template_agumg9q",
+        "service_2bwl6de",
+        "template_ydj65d8",
         form.current,
-        "0l_7Ii5swDRXaZUNu"
+        "Nv6vQeRnp8639LnkU"
       )
       .then(
         (result) => {
@@ -83,13 +83,13 @@ const Contact = () => {
               <h2 className="inTouch">Lets get in touch.</h2>
               <input
                 type="text"
-                name="user_name"
+                name="from_name"
                 placeholder="Name"
                 className="inputName"
               />
               <input
                 type="email"
-                name="user_email"
+                name="email"
                 placeholder="Email"
                 className="inputEmail"
               />
